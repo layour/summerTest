@@ -83,7 +83,7 @@ function ajaxService() {
 }
 function callActionService() {
     summer.callAction({
-        "viewid" : "a.b.data", //后台带包名的Controller名
+        "viewid" : "com.yonyou.TestDataController", //后台带包名的Controller名
         "action" : "getData", //方法名,
         "params" : '{"a":"123","b":"465"}', //自定义参数
         "autoDataBinding": true,//请求完毕后，是否进行数据绑定，如果没有该属性，则默认不绑定。
